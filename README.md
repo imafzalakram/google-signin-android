@@ -1,13 +1,13 @@
 # google-signin-android
 An app to implement google signin feature into android app using firebase 
-## 1. Add dependency into app.gradle
+# 1. Add dependency into app.gradle
 
 ```
 implementation 'com.google.firebase:firebase-auth:19.3.2'
 implementation 'com.google.android.gms:play-services-auth:18.1.0'
 ```
 
-## 2. Add this xml code in activity’s layout
+# 2. Add this xml code in activity’s layout
 
 ```
 <com.google.android.gms.common.SignInButton
@@ -20,7 +20,7 @@ implementation 'com.google.android.gms:play-services-auth:18.1.0'
 
 
 
-## 3. Define your Google SignIn request and create a scope in onCreate() method. Default scope is GoogleSignInOptions.DEFAULT_SIGN_IN which is enough for signin. There’s a default web client id in the environment in which you develop android app
+# 3. Define your Google SignIn request and create a scope in onCreate() method. Default scope is GoogleSignInOptions.DEFAULT_SIGN_IN which is enough for signin. There’s a default web client id in the environment in which you develop android app
 
 ```
 GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -30,7 +30,7 @@ GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DE
 mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 ```
 
-## 4. Set dimensions of the signing button and initiate the signIn flow
+# 4. Set dimensions of the signing button and initiate the signIn flow
 
 ```
 // Set the dimensions of the sign-in button.
@@ -46,7 +46,7 @@ findViewById(R.id.sign_in_button).setOnClickListener(new View.OnClickListener() 
 
 ```
 
-## 5. Trigger the intent which will open a dialog box having all the emails accounts which will be logged in and we will handle the result in onActivityResult() method. We pass a request code when create intent
+# 5. Trigger the intent which will open a dialog box having all the emails accounts which will be logged in and we will handle the result in onActivityResult() method. We pass a request code when create intent
 
 ```
 private void signIn() {
@@ -76,4 +76,4 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 ```
 
 
-## 6. Now we will authenticate 
+# 6. Now we will authenticate 
