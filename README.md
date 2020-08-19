@@ -47,7 +47,8 @@ findViewById(R.id.sign_in_button).setOnClickListener(new View.OnClickListener() 
 
 ```
 
-### 5. Trigger the intent which will open a dialog box having all the emails accounts which will be logged in and we will handle the result in onActivityResult() method. We pass a request code when create intent
+### 5. Trigger the intent
+Create an intent which will open a dialog box having all the emails accounts which will be logged in and we will handle the result in onActivityResult() method. We pass a request code when create intent
 
 ```
 private void signIn() {
@@ -76,5 +77,3 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 ```
 
-
-### 6. Now we will authenticate 
