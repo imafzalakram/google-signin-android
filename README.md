@@ -1,6 +1,6 @@
 # google-signin-android
 An app to implement google signin feature into android app using firebase 
-# 1. Add dependency into app.gradle
+#### 1. Add dependency into app.gradle
 
 ```
 implementation 'com.google.firebase:firebase-auth:19.3.2'
