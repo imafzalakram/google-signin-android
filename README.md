@@ -20,7 +20,8 @@ implementation 'com.google.android.gms:play-services-auth:18.1.0'
 
 
 
-### 3. Define your Google SignIn request and create a scope in onCreate() method. Default scope is GoogleSignInOptions.DEFAULT_SIGN_IN which is enough for signin. There’s a default web client id in the environment in which you develop android app
+### 3. Define your Google SignIn request 
+Define your request and create a scope in onCreate() method. Default scope is GoogleSignInOptions.DEFAULT_SIGN_IN which is enough for signin. There’s a default web client id in the environment in which you develop android app
 
 ```
 GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
