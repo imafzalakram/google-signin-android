@@ -7,7 +7,7 @@ mechanism. Here's an app in which we have implemented google signin feature usin
 implementation 'com.google.firebase:firebase-auth:19.3.2'
 implementation 'com.google.android.gms:play-services-auth:18.1.0'
 ```
-you can find latest version on [https://firebase.google.com/docs/auth/android/google-signin](this page)
+you can find latest version on [this page](https://firebase.google.com/docs/auth/android/google-signin)
 
 
 ### 2. Add this xml code in activity’s layout
