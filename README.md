@@ -118,4 +118,4 @@ We received a token after google sign-in, we will pass that token to FirebaseAut
     }
 ```
 
-I use this code from [https://firebase.google.com/docs/auth/android/google-signin](Firebase)
+I use this code from [Firebase](https://firebase.google.com/docs/auth/android/google-signin)
