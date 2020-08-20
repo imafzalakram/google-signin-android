@@ -101,7 +101,7 @@ We are done with google sign-in, because we are using firebase that's why now we
     }
 ```
 
-We received a token after google sign-in, we will pass that token to FirebaseAuth object as credentials for verification
+We receive a token after google sign-in, we will pass that token to FirebaseAuth object as credentials for verification
 
 
 ### 7. We don't need to authenticate our user everytime he open the app, that's why we will check user session in onStrat() method and will continue if user will already signed in
