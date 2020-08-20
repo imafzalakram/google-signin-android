@@ -1,5 +1,5 @@
 # google-signin-android
-While working with Google or Facebook APIs, there are two kinds of resources/data that we can use in our application. We can use public resources without user authentication, for example data about youtube public videos through Youtube Data APIs, but we need user authentication in order to get private data for example user email and sometime we need user authentication in order to perform an action. For that purposes, we can use google sign in API that works on OAuth 2.0 
+While working on google or facebook APIs, there are two kinds of resources/data that we can use in our application. We can use public resources without user authentication, for example data about youtube public videos through Youtube Data APIs, but we need user authentication in order to get private data for example user email and sometime we need user authentication in order to perform an action. For that purposes, we can use google sign in API that works on OAuth 2.0 
 mechanism. Here's an app in which we have implemented google signin feature using firebase.
 
 ### 1. Add dependency into app.gradle
